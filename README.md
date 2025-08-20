@@ -16,25 +16,27 @@
         
         if(nums2[j] >nums1[i]) break;
 
-    }
+     }
 
-    }
-    return ans;
-    }
+     }
+     return ans;
+     }
 
-    int main(){
+     int main(){
 
-    vector<int> nums1 = {1, 2, 2, 3};
-    vector<int> nums2 = {2, 2, 3, 4};
+     vector<int> nums1 = {1, 2, 2, 3};
+     vector<int> nums2 = {2, 2, 3, 4};
 
 
-    vector<int> result  =  ArrayIntersection(nums1,nums2);
+     vector<int> result  =  ArrayIntersection(nums1,nums2);
      
-    cout<<" intersection";
-    for(int  x : result){
-    cout<<x<< " ";
-    }
-    cout<<endl;
-    return 0;
-}
+     cout<<" intersection";
+     for(int  x : result){
+     cout<<x<< " ";
+     }
+     cout<<endl;
+     return 0;
+
+     
+     }
      
